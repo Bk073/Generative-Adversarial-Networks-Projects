@@ -307,7 +307,7 @@ def write_log(callback, name, loss, batch_no):
 
 
 if __name__ == '__main__':
-    data_dir = "data/birds/"
+    data_dir = "/content/Generative-Adversarial-Networks-Projects/data/birds/"
     train_dir = data_dir + "/train"
     test_dir = data_dir + "/test"
     image_size = 64

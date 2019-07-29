@@ -443,7 +443,7 @@ def save_rgb_img(img, path):
 
 
 if __name__ == '__main__':
-    data_dir = "data/birds/"
+    data_dir = "/content/Generative-Adversarial-Networks-Projects/data/birds/"
     train_dir = data_dir + "/train"
     test_dir = data_dir + "/test"
     hr_image_size = (256, 256)
